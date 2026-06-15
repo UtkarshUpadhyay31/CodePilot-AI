@@ -2,6 +2,33 @@
 
 CodePilot AI is a production-grade, deep learning-powered C++ code autocomplete and code generation platform. The application is powered by a custom Gated Recurrent Unit (GRU) neural network model trained on over 1,500+ LeetCode C++ solutions, wrapped in a high-performance FastAPI server and interactive React/Vite web interface.
 
+## 📸 Project Preview
+
+### Landing Page
+
+![Landing Page](screenshot/landing_page.png)
+
+### Interactive Playground
+
+![Model Interface](screenshot/model_interface.png)
+
+### AI Prediction Demo
+
+![Prediction Demo](screenshot/prediction.png)
+
+---
+
+## 📊 Model Statistics
+
+| Metric              | Value   |
+| ------------------- | ------- |
+| Vocabulary Size     | 21,226  |
+| Training Sequences  | 140,611 |
+| Architecture        | GRU     |
+| Embedding Size      | 128     |
+| Max Sequence Length | 200     |
+| Validation Accuracy | 42.3%   |
+
 ---
 
 ## 🎨 Features
@@ -191,3 +218,24 @@ Deploy the resulting `dist/` directory to Vercel, Netlify, or AWS S3.
 1. **Transformer Transition**: Upgrade the sequence generation model to a decoder-only Transformer (like GPT-2 or Llama-based architecture) for cleaner context-understanding.
 2. **Keyboard Shortcut Autocomplete**: Implement inline ghost text suggestions directly inside Monaco Editor, triggered on typing rather than clicking buttons.
 3. **Advanced Sampling Options**: Support user sliders for temperature scaling and Nucleus (top-p) sampling values directly in the control panel.
+
+
+---
+
+## 👨‍💻 Author
+
+### Utkarsh Upadhyay
+
+Deep Learning • Competitive Programming • Full Stack Development
+
+GitHub: https://github.com/UtkarshUpadhyay31
+
+---
+
+## ⭐ Support
+
+If you found this project useful, consider giving the repository a star.
+
+⭐ Star this repository if you like the project.
+
+---
